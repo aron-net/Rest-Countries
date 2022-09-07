@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ar-img {
+    width: 30%;
+    height: 10vh;
+    margin: auto 0;
+    padding-left: 30px;
+}
+
+.characters-section {
+    background-color: white;
+    height: 100vh;
+}
+
+.marvel-characters-title {
+    background-color: #3e6083;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.marvel-characters-text {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.marvel-characters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: antiquewhite;
+    font-size: 18px;
+    width: 95%;
+}
+
+.vitor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character-title {
+    width: 100%;
+    background-color: #1d4e80;
+    color: white;
+    padding: 10px 40px;
+}
+
+.individual-characters-title {
+    width: 100%;
+    background-color: #1d4e80;
+    color: white;
+}
+
+.individual-character {
+    background-color: #325980;
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+    padding: 30px;
+}
+
+.individual-character:nth-child(2),
+.individual-character:nth-child(3),
+.individual-character:nth-child(6) {
+    background-color: #1d4e80;
+}
