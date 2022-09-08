@@ -4,74 +4,99 @@
     box-sizing: border-box;
 }
 
-.ar-img {
-    width: 30%;
-    height: 10vh;
-    margin: auto 0;
-    padding-left: 30px;
-}
-
-.characters-section {
-    background-color: white;
-    height: 100vh;
-}
-
-.marvel-characters-title {
-    background-color: #3e6083;
-    width: 100%;
-    aspect-ratio: 2 / 1;
+.ar-characters-title {
+    background-image: linear-gradient( 90deg, transparent, #205b96), url('../../image/continent-icon-13.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
-.marvel-characters-text {
-    width: calc(100% / 2);
-    aspect-ratio: 1 / 1;
-    padding-left: 30px;
+.ar-characters-text {
+    width: calc(100%);
+    padding-left: 4px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
     justify-content: center;
 }
 
-.marvel-characters {
+.ar-characters {
+    background-color: #1d4e80;
+    background-image: url('../../image/dark-mosaic.png');
     display: flex;
     flex-wrap: wrap;
 }
 
 .text {
     color: antiquewhite;
-    font-size: 18px;
-    width: 95%;
+    font-size: 2.9em;
+    padding: 45px;
+    text-shadow: 0 0 10px #000;
+    width: 100%;
 }
 
 .vitor {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
 }
 
 .character-title {
     width: 100%;
-    background-color: #1d4e80;
+    background-color: #18395d;
+    background-image: url('../../image/dark-mosaic.png');
     color: white;
-    padding: 10px 40px;
+    padding: 30px 40px;
+    text-align: center;
 }
 
-.individual-characters-title {
-    width: 100%;
-    background-color: #1d4e80;
-    color: white;
+a {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
 }
 
 .individual-character {
-    background-color: #325980;
-    width: calc(100% / 2);
+    background-color: #0d4781;
+    background-image: url('../../image/dust.png');
+    width: calc(95% / 2);
     aspect-ratio: 1 / 1;
-    padding: 30px;
+    padding: 45px 10px;
+    height: 15vh;
+    margin: 2px;
 }
 
 .individual-character:nth-child(2),
 .individual-character:nth-child(3),
 .individual-character:nth-child(6) {
-    background-color: #1d4e80;
+    background-color: #022344;
+}
+
+@media all and (min-width: 768px) {
+    .marvel-characters-title {
+        background-repeat: no-repeat;
+        background-size:inherit;
+        background-position: center;
+        text-align: center;
+    }
+    .individual-character {
+        background-color: #1d4e80;
+        background-image: url('../../image/double-lined.png');
+        width: calc(95% / 3);
+        aspect-ratio: 1 / 1;
+        padding: 150px 20px;
+        height: 40vh;
+    }
+    .individual-character:nth-child(2),
+    .individual-character:nth-child(4),
+    .individual-character:nth-child(6) {
+        background-color: #1d4e80;
+        background-image: url('../../image/dust.png');
+    }
+    .individual-character:nth-child(3) {
+        background-image: url('../../image/double-lined.png');
+    }
 }
