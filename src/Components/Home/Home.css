@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+.fix {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.input {
+    font-size: 28px;
+    color: #000;
+    width: 50%;
+    margin: auto;
+    padding: 3px;
+}
+
+.ar-text {
+    font-size: 30px;
+    color: black;
+}
+
 .ar-characters-title {
     background-image: linear-gradient( 90deg, transparent, #205b96), url('../../image/continent-icon-13.jpg');
     background-size: contain;
@@ -62,7 +82,7 @@ a {
 .individual-character {
     background-color: #0d4781;
     background-image: url('../../image/dust.png');
-    width: calc(95% / 2);
+    width: calc(90% / 2);
     aspect-ratio: 1 / 1;
     padding: 45px 10px;
     height: 15vh;
@@ -73,6 +93,7 @@ a {
 .individual-character:nth-child(3),
 .individual-character:nth-child(6) {
     background-color: #022344;
+    background-image: url('../../image/double-lined.png');
 }
 
 @media all and (min-width: 768px) {
@@ -97,6 +118,7 @@ a {
         background-image: url('../../image/dust.png');
     }
     .individual-character:nth-child(3) {
+        background-color: #1d4e80;
         background-image: url('../../image/double-lined.png');
     }
 }

@@ -13,7 +13,6 @@ const NavBar = () => {
                     </NavLink>
                 </li>
             </ul>
-
             <div className="logo-div">
                 <img className="ar-img" src={aron} alt="world" />
                 <p className="logo-p">Where in the world?</p>

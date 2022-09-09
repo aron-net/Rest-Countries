@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux";
 import './Countries.css';
-import '../Home/Home.css'
+import '../Home/Home.css';
+
 const Countries = () => {
-    const item = useSelector((state) => state.country);
+    const item = useSelector((state) => state.country)
     return (
         <>
             <div className="ar-characters-title-1">
@@ -11,7 +12,8 @@ const Countries = () => {
             </div>
         </div>
         <div className="ar-characters">
-            <div className="character-title">Filtered Countries by Continent</div>
+            <div className="character-title">
+            </div>
             <table>
                 <caption>All Countries</caption>
                 <thead>
