@@ -84,7 +84,7 @@ a {
 .individual-character {
   background-color: #0d4781;
   background-image: url('../../image/dust.png');
-  width: calc(100%/2);
+  width: calc(100% / 2);
   aspect-ratio: 1 / 1;
 }
 
