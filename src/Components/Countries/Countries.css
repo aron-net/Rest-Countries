@@ -17,6 +17,7 @@ table caption {
 
 table tr {
   padding: 0.35em;
+  font-size: 1.85rem;
 }
 
 table th,
@@ -26,7 +27,7 @@ table td {
 }
 
 table th {
-  font-size: 0.85em;
+  font-size: 1.85rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -79,7 +80,7 @@ tbody tr:nth-child(even) {
 
   table td {
     display: block;
-    font-size: 0.8em;
+    font-size: 1.9em;
     text-align: right;
   }
 
