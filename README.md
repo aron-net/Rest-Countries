@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](on way/)
+[Live Demo Link](https://631b4ed776d385067c15c38a--polite-griffin-2be7d6.netlify.app/)
 
 ## Quick view
 
