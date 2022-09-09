@@ -30,17 +30,18 @@
 .NavLink {
   font-size: 1.3rem;
   list-style-type: none;
-
 }
 
 @media all and (min-width: 768px) {
   .navigation-bar {
-    padding-top: 6px 10px;
+    padding: 6px 10px;
     height: 70px;
   }
+
   .ar-img {
     height: 50px;
   }
+
   .NavLink {
     font-size: 2.4em;
     display: flex;
