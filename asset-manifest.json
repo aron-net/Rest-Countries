@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rest-Countries/static/css/main.fe87d9bd.css",
-    "main.js": "/Rest-Countries/static/js/main.78777f06.js",
+    "main.css": "/Rest-Countries/static/css/main.007531d6.css",
+    "main.js": "/Rest-Countries/static/js/main.9e68fce9.js",
     "static/js/787.28cb0dcd.chunk.js": "/Rest-Countries/static/js/787.28cb0dcd.chunk.js",
     "static/media/The_Earth_seen_from_Apollo_17_with_transparent_background.png": "/Rest-Countries/static/media/The_Earth_seen_from_Apollo_17_with_transparent_background.f010f1ddf9f4a10815b8.png",
     "static/media/aron-transparent.png": "/Rest-Countries/static/media/aron-transparent.16f51530457aeec2416e.png",
@@ -9,12 +9,12 @@
     "static/media/continent-icon-13.jpg": "/Rest-Countries/static/media/continent-icon-13.fa3fc7cf5004e1971cb6.jpg",
     "static/media/dark-mosaic.png": "/Rest-Countries/static/media/dark-mosaic.4ec7200660870187bcfb.png",
     "index.html": "/Rest-Countries/index.html",
-    "main.fe87d9bd.css.map": "/Rest-Countries/static/css/main.fe87d9bd.css.map",
-    "main.78777f06.js.map": "/Rest-Countries/static/js/main.78777f06.js.map",
+    "main.007531d6.css.map": "/Rest-Countries/static/css/main.007531d6.css.map",
+    "main.9e68fce9.js.map": "/Rest-Countries/static/js/main.9e68fce9.js.map",
     "787.28cb0dcd.chunk.js.map": "/Rest-Countries/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe87d9bd.css",
-    "static/js/main.78777f06.js"
+    "static/css/main.007531d6.css",
+    "static/js/main.9e68fce9.js"
   ]
 }
