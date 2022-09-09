@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.NavLink {
+  font-size: 1.9rem;
+}
+
 @media all and (min-width: 768px) {
   .navigation-bar {
     padding-top: 6px 10px;
