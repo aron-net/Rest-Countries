@@ -21,7 +21,7 @@ table tr {
 
 table th,
 table td {
-  padding: 0.625em;
+  padding: 0.225em;
   text-align: center;
 }
 
@@ -47,6 +47,7 @@ tbody tr:nth-child(even) {
   display: flex;
   align-items: center;
   text-align: center;
+  height: 15vh;
 }
 
 @media screen and (max-width: 768px) {

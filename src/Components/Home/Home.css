@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   text-align: center;
+  height: 20vh;
 }
 
 .ar-characters-text {
@@ -53,7 +54,7 @@
 
 .text {
   color: antiquewhite;
-  font-size: 2.9em;
+  font-size: 1.9em;
   padding: 45px;
   text-shadow: 0 0 10px #000;
   width: 100%;
@@ -99,7 +100,7 @@ a {
 }
 
 .h2 {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 @media all and (min-width: 768px) {
@@ -116,7 +117,7 @@ a {
     width: calc(95% / 3);
     aspect-ratio: 1 / 1;
     padding: 10px 20px;
-    height: 40vh;
+    height: 30vh;
   }
 
   .individual-character:nth-child(2),
@@ -132,12 +133,12 @@ a {
   }
 
   .input {
-    font-size: 20px;
+    font-size: 1.5rem;
     width: 20%;
     padding: 4px;
   }
 
   .h2 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }

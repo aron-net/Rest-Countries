@@ -4,13 +4,13 @@
   justify-content: space-between;
   height: 70px;
   align-items: center;
-  padding: 0 10px;
+  padding: 0px 15px;
   background-color: #18395d;
   background-image: url('../../image/dark-mosaic.png');
 }
 
 .ar-img {
-  height: 40px;
+  height: 30px;
   aspect-ratio: 1 / 1;
 }
 
@@ -24,4 +24,19 @@
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+@media all and (min-width: 768px) {
+  .navigation-bar {
+    padding-top: 6px 10px;
+    height: 90px;
+  }
+  .ar-img {
+    height: 50px;
+  }
+  .NavLink {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
 }
