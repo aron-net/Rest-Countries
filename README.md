@@ -2,7 +2,7 @@
 
 # Rest Countries Api
 
-> Rest Country api is a react redux application 
+> Rest Country api is a react redux application based data fetched from rest countries api. The application allows user to filter information by different continents.
 
 ## Built With
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://aron-helu.github.io/Space-Traveler/)
+[Live Demo Link](on way/)
 
 ## Quick view
 
