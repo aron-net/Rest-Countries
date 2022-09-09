@@ -61,10 +61,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+- [Microverse](https://www.microverse.org/go?gclid=Cj0KCQjwyOuYBhCGARIsAIdGQRONnNmf5hcDufHpehQFsgtsW3CaTjdlZl7Fa_rIDK1cyyEz4MRY754aAg_REALw_wcB/)
+- [ReactJS Organization](https://reactjs.org/) for the amazing [Documentation](https://reactjs.org/docs/getting-started.html/) on React.
+- [Redux Organization](https://redux.js.org/) for the amazing [Redux Essentials Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts/) on React.
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio/) for the amazing [on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)/)
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
