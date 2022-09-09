@@ -61,7 +61,6 @@ const Continent = () => {
         {filteredData.map(({ id, name }) => (
           <button key={id} className="individual-character" type="button" onClick={() => listHandler(name)} onKeyDown={() => listHandler(name)}>
             <Link to={`/${name}`}>
-              {/* <img clasName="afro" src={afro} alt="aron" /> */}
               <h2 className="h2">{name}</h2>
             </Link>
           </button>

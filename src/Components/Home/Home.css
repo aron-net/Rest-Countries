@@ -9,6 +9,7 @@
   flex-direction: column;
   width: 100%;
   gap: 10px;
+  padding-top: 10px;
 }
 
 .input {
@@ -18,6 +19,7 @@
   margin: auto;
   padding: 3px;
   text-align: center;
+  outline: none;
 }
 
 .ar-text {
@@ -26,10 +28,10 @@
 }
 
 .ar-characters-title {
-  background-image: linear-gradient(90deg, transparent, #205b96), url('../../image/continent-icon-13.jpg');
+  background-image: linear-gradient(90deg, transparent, #205b96), url('../../image/aronbg.jpg');
   background-size: contain;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   text-align: center;
@@ -54,7 +56,7 @@
 
 .text {
   color: antiquewhite;
-  font-size: 1.9em;
+  font-size: 2.9em;
   padding: 45px;
   text-shadow: 0 0 10px #000;
   width: 100%;
@@ -74,6 +76,7 @@
   color: white;
   padding: 30px 40px;
   text-align: center;
+  font-size: 2.1rem;
 }
 
 a {
@@ -140,5 +143,13 @@ a {
 
   .h2 {
     font-size: 4rem;
+  }
+
+  .text {
+    font-size: 5rem;
+  }
+
+  .character-title {
+    font-size: 3.2rem;
   }
 }
