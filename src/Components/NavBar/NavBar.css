@@ -1,0 +1,55 @@
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #18395d;
+  background-image: url('../../image/dark-mosaic.png');
+}
+
+.ar-img {
+  height: 30px;
+  aspect-ratio: 1 / 1;
+}
+
+.logo-p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.logo-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.NavLink {
+  font-size: 1.3rem;
+  list-style-type: none;
+}
+
+@media all and (min-width: 768px) {
+  .navigation-bar {
+    padding: 6px 10px;
+    height: 70px;
+  }
+
+  .ar-img {
+    height: 50px;
+  }
+
+  .NavLink {
+    font-size: 2.4em;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .logo-p {
+    font-size: 2.5em;
+  }
+}

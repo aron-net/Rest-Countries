@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.input {
+  font-size: 18px;
+  color: #000;
+  width: 50%;
+  margin: auto;
+  padding: 3px;
+  text-align: center;
+  outline: none;
+}
+
+.all-character {
+  width: 100%;
+}
+
+.ar-text {
+  font-size: 30px;
+  color: black;
+}
+
+.ar-characters-title {
+  background-image: linear-gradient(90deg, transparent, #205b96), url('../../image/aronbg.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+}
+
+.ar-characters-text {
+  width: calc(100%);
+  padding-left: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.ar-characters {
+  background-color: #1d4e80;
+  background-image: url('../../image/dark-mosaic.png');
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.text {
+  color: antiquewhite;
+  font-size: 2.9em;
+  padding: 45px;
+  text-shadow: 0 0 10px #000;
+  width: 100%;
+}
+
+.vitor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.character-title {
+  width: 100%;
+  background-color: #18395d;
+  background-image: url('../../image/dark-mosaic.png');
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+.individual-character {
+  background-color: #0d4781;
+  background-image: url('../../image/dust.png');
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+}
+
+.individual-character:nth-child(2),
+.individual-character:nth-child(3),
+.individual-character:nth-child(6) {
+  background-color: #022344;
+  background-image: url('../../image/double-lined.png');
+}
+
+.h2 {
+  font-size: 1.5rem;
+}
+
+@media all and (min-width: 768px) {
+  .marvel-characters-title {
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+    text-align: center;
+  }
+
+  .individual-character {
+    background-color: #1d4e80;
+    background-image: url('../../image/double-lined.png');
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    padding: 10px 20px;
+  }
+
+  .individual-character:nth-child(2),
+  .individual-character:nth-child(4),
+  .individual-character:nth-child(6) {
+    background-color: #1d4e80;
+    background-image: url('../../image/dust.png');
+  }
+
+  .individual-character:nth-child(3) {
+    background-color: #1d4e80;
+    background-image: url('../../image/double-lined.png');
+  }
+
+  .input {
+    font-size: 1.5rem;
+    width: 20%;
+    padding: 4px;
+  }
+
+  .h2 {
+    font-size: 4rem;
+  }
+
+  .text {
+    font-size: 5rem;
+  }
+
+  .character-title {
+    font-size: 3.2rem;
+  }
+}
