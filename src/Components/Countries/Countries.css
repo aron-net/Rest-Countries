@@ -1,0 +1,97 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  padding: 0;
+  width: 99%;
+  table-layout: fixed;
+}
+
+.flag-img {
+  width: 25%;
+}
+
+table caption {
+  font-size: 1.8em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #205b96;
+  background-image: url('../../image/dust.png');
+}
+
+tbody tr:nth-child(even) {
+  background-color: #2b6397;
+  background-image: url('../../image/double-lined.png');
+}
+
+.ar-characters-title-1 {
+  background-image: linear-gradient(90deg, transparent, #205b96), url('../../image/The_Earth_seen_from_Apollo_17_with_transparent_background.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  /* Here we are setting each td display to block */
+
+  table td {
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  /* Now the other data-label we have added on each td comes into play. */
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
