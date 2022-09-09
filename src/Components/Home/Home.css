@@ -11,14 +11,6 @@
   gap: 10px;
 }
 
-h2:focus {
-  outline: none !important;
-}
-
-h2:focus-within {
-  outline: none !important;
-}
-
 .input {
   font-size: 28px;
   color: #000;
@@ -36,6 +28,7 @@ h2:focus-within {
   background-image: linear-gradient(90deg, transparent, #205b96), url('../../image/continent-icon-13.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
   text-align: center;
@@ -69,7 +62,7 @@ h2:focus-within {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 12px;
+  gap: 2px;
 }
 
 .character-title {
@@ -92,9 +85,8 @@ a {
   background-image: url('../../image/dust.png');
   width: calc(90% / 2);
   aspect-ratio: 1 / 1;
-  padding: 45px 10px;
+  padding: 25px 10px;
   height: 15vh;
-  margin: 2px;
 }
 
 .individual-character:nth-child(2),
