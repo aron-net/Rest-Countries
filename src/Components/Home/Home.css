@@ -36,6 +36,7 @@ h2:focus-within {
   background-image: linear-gradient(90deg, transparent, #205b96), url('../../image/continent-icon-13.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
   text-align: center;
