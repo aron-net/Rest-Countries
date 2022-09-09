@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React & Redux group project - Space Travelers' Hub 
+# Rest Countries Api
 
-> Space travelers' Hub App based on api
+> Rest Country api is a react redux application 
 
 ## Built With
 
