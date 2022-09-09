@@ -9,7 +9,6 @@ const Home = () => (
       </div>
     </div>
     <div className="ar-characters">
-      <div className="character-title">Filter By Region</div>
       <Continent />
     </div>
   </div>

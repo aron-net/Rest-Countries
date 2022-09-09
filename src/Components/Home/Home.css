@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.fix {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 10px;
-  padding-top: 10px;
-}
-
 .input {
   font-size: 18px;
   color: #000;
@@ -20,6 +12,10 @@
   padding: 3px;
   text-align: center;
   outline: none;
+}
+
+.all-character {
+  width: 100%;
 }
 
 .ar-text {
@@ -52,6 +48,7 @@
   background-image: url('../../image/dark-mosaic.png');
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .text {
@@ -66,7 +63,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 12px;
 }
 
 .character-title {
@@ -88,11 +84,8 @@ a {
 .individual-character {
   background-color: #0d4781;
   background-image: url('../../image/dust.png');
-  width: calc(90% / 2);
+  width: calc(100%/2);
   aspect-ratio: 1 / 1;
-  padding: 15px 5px;
-  height: 15vh;
-  margin: 2px;
 }
 
 .individual-character:nth-child(2),
@@ -117,10 +110,9 @@ a {
   .individual-character {
     background-color: #1d4e80;
     background-image: url('../../image/double-lined.png');
-    width: calc(95% / 3);
+    width: calc(100% / 3);
     aspect-ratio: 1 / 1;
     padding: 10px 20px;
-    height: 30vh;
   }
 
   .individual-character:nth-child(2),
