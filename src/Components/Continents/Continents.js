@@ -56,7 +56,7 @@ const Continent = () => {
 
   return (
     <div className="fix">
-      <input className="input" type="text" placeholder="Search - continent" onChange={inputHandler} />
+      <input className="input" type="text" placeholder="Search - Continent" onChange={inputHandler} />
       <div className="vitor">
         {filteredData.map(({ id, name }) => (
           <button key={id} className="individual-character" type="button" onClick={() => listHandler(name)} onKeyDown={() => listHandler(name)}>
